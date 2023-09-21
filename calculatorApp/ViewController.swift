@@ -54,10 +54,10 @@ class ViewController: UIViewController {
             switch operation {
                 case "/":
                 if !didDoAnother {
-                    resultNumber = currentNumber / previousNumber!
+                    resultNumber = previousNumber! / currentNumber
                     currentNumber = resultNumber
                 } else {
-                    resultNumber = previousNumber! / currentNumber
+                    resultNumber = currentNumber / previousNumber!
                     currentNumber = resultNumber
                 }
                 case "*":
