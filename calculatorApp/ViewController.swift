@@ -57,7 +57,7 @@ class ViewController: UIViewController {
                     resultNumber = previousNumber! / currentNumber
                     currentNumber = resultNumber
                 } else {
-                    resultNumber = currentNumber / previousNumber!
+                    resultNumber = previousNumber! / currentNumber
                     currentNumber = resultNumber
                 }
                 case "*":
@@ -68,7 +68,7 @@ class ViewController: UIViewController {
                     resultNumber = previousNumber! - currentNumber
                     currentNumber = resultNumber
                 } else {
-                    resultNumber = currentNumber - previousNumber!
+                    resultNumber = previousNumber! - currentNumber
                     currentNumber = resultNumber
                 }
                 case "+":
